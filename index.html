@@ -9,7 +9,8 @@
 
 <body>
     <div id="upload-container" class="upload-container">
-        <input type="file" id="files" accept=".jpg" multiple>
+        <input type="file" id="files" accept=".jpg,.png" multiple>
+        <input type="button" id="use-existing" onClick="useExisting()" value="Use Existing">
         <br>
         <br>
         <div>Only up to 9 files will be processed. Files are not uploaded.</div>
@@ -21,6 +22,11 @@
         <input type="checkbox" id="fill-borders" name="fill-borders" checked>
         <label for="fill-borders">Fill Borders</label>
         <br>
+        <br>
+        <div>
+            Planned but note yet implemented: Repeat Card(s), BG Color, Fill Mode, Border Smoothness
+        </div>
+        </b>
         <br>
         <input type="button" onClick="hideUploadContainer()" value="print test page">
     </div>
