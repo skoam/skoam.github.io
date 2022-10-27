@@ -1,0 +1,76 @@
+.card-frame {
+    width: 63mm;
+    height: 88mm;
+
+    margin: 2px;
+
+    background-image: url("./card.example.jpg");
+    background-size: contain;
+    background-color: white;
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    border: 3px solid #cccccc;
+
+    float: left;
+}
+
+.cutline-vertical {
+    background-color: #cccccc;
+    width: 1px;
+    height: 297mm;
+    position: absolute;
+    margin-left: -1px;
+    margin-top: -11mm;
+}
+
+.cutline-horizontal {
+    background-color: #cccccc;
+    height: 1px;
+    width: 210mm;
+    position: absolute;
+    margin-left: -6mm;
+    margin-top: -1px;
+}
+
+.far {
+    margin-left: 63mm;
+}
+
+.bottom {
+    margin-top: 88mm;
+}
+
+.rows {
+    display: inline-block;
+    margin-top: 10mm;
+    margin-left: 5mm;
+    outline: 2px dotted darkgray;
+}
+
+.sheet {
+    width: 210mm;
+    height: 297mm;
+
+    background-color: white;
+    outline: 2px dashed darkgray;
+}
+
+.upload-container {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 15px;
+    background-color: white;
+    outline: 2px dashed darkgray;
+}
+
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}

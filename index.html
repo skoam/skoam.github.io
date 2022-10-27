@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TCG Card Print</title>
+    <link id="style" href="style.css" type="text/css" rel="stylesheet">
+    <script src="common.js"></script>
+</head>
+
+<body>
+    <div id="upload-container" class="upload-container">
+        <input type="file" id="files" accept=".jpg" multiple>
+        <br>
+        <br>
+        <div>Only up to 9 files will be processed. Files are not uploaded.</div>
+        <div>
+            This field will be hidden on file selection. You can then print. Refresh the page afterwards to upload new
+            files.
+        </div>
+        <br>
+        <input type="checkbox" id="fill-borders" name="fill-borders" checked>
+        <label for="fill-borders">Fill Borders</label>
+        <br>
+        <br>
+        <input type="button" onClick="hideUploadContainer()" value="print test page">
+    </div>
+
+    <div class="sheet" id="print-container" style="display:none;">
+        <div class="rows">
+            <div class="row">
+                <div id="image_1" class="card-frame">
+                    <div class="cutline-vertical"></div>
+                    <div class="cutline-vertical far"></div>
+                    <div class="cutline-horizontal"></div>
+                    <div class="cutline-horizontal bottom"></div>
+                </div>
+                <div id="image_2" class="card-frame">
+                    <div class="cutline-vertical"></div>
+                    <div class="cutline-vertical far"></div>
+                </div>
+                <div id="image_3" class="card-frame">
+                    <div class="cutline-vertical"></div>
+                    <div class="cutline-vertical far"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="image_4" class="card-frame">
+                    <div class="cutline-horizontal"></div>
+                    <div class="cutline-horizontal bottom"></div>
+                </div>
+                <div id="image_5" class="card-frame"></div>
+                <div id="image_6" class="card-frame"></div>
+            </div>
+
+            <div class="row">
+                <div id="image_7" class="card-frame">
+                    <div class="cutline-horizontal"></div>
+                    <div class="cutline-horizontal bottom"></div>
+                </div>
+                <div id="image_8" class="card-frame"></div>
+                <div id="image_9" class="card-frame"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
