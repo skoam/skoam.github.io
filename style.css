@@ -23,7 +23,7 @@
 .cutline-vertical {
     background-color: #cccccc;
     width: 1px;
-    height: 290mm;
+    height: 282mm;
     position: absolute;
     margin-left: -1px;
     margin-top: -6mm;
@@ -58,7 +58,6 @@
     height: 297mm;
 
     background-color: white;
-    outline: 2px dashed darkgray;
 }
 
 .upload-container {
