@@ -26,7 +26,7 @@
     height: 290mm;
     position: absolute;
     margin-left: -1px;
-    margin-top: -11mm;
+    margin-top: -6mm;
 }
 
 .cutline-horizontal {
@@ -34,7 +34,7 @@
     height: 1px;
     width: 204mm;
     position: absolute;
-    margin-left: -6mm;
+    margin-left: -3mm;
     margin-top: -1px;
 }
 
