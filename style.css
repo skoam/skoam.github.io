@@ -23,7 +23,7 @@
 .cutline-vertical {
     background-color: #cccccc;
     width: 1px;
-    height: 297mm;
+    height: 290mm;
     position: absolute;
     margin-left: -1px;
     margin-top: -11mm;
@@ -32,7 +32,7 @@
 .cutline-horizontal {
     background-color: #cccccc;
     height: 1px;
-    width: 210mm;
+    width: 204mm;
     position: absolute;
     margin-left: -6mm;
     margin-top: -1px;
